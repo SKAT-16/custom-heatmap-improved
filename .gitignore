@@ -1,0 +1,81 @@
+# PHP
+vendor/
+composer.lock
+composer.phar
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+
+# Build files
+build/
+dist/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Compiled files
+*.class
+*.compiled
+*.pyc
+__pycache__/
+
+# Cache files
+cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Test coverage reports
+code-coverage/
+coverage/
+
+# Distribution files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+
+# Editor files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Custom heatmap data
+heatmap-data.json
+heatmap-data.*
+
+# API keys and sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+*.der
