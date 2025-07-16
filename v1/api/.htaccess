@@ -1,0 +1,4 @@
+# Allow access to all files in this directory
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
